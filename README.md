@@ -1,7 +1,8 @@
 # DockerData
-A package to control Docker Volumes over a swarm of RPI´s
+A package to control Docker Volumes over a swarm of RPI´s.
 Welcome to this corner of the world.
-Please note that i am not anadvanced linux or docker user but im slowly advancing.
+Please note that i am not an advanced linux or docker user but im slowly advancing.
+Also English is not my primary language so you can find a lot of typo´s.
 
 The idea of this project has started from bare need to somehow manage data between my physical storage an each container instance within my swarm.
 
