@@ -1,0 +1,38 @@
+{
+	"Service Info":{
+		"Comment":"Template",
+		"Version":"0.1",
+		"Name":"Template",
+		"MountPoint":"Data1",
+		"RightMapping":{
+			"Default":{
+				"HostUser":"1022",
+				"VolUser":"442",
+
+				"HostGroup":"100",
+				"VolGroup":"422",
+
+				"HostMod":"755",
+				"VolMod":"750",
+
+				"HostUmask":"022",
+				"VolUmask":"022"
+			},
+			"1":{
+				"Path":"readme.txt",
+
+				"HostUser":"1022",
+        	               	"VolUser":"442",
+
+               	        	"HostGroup":"100",
+                       		"VolGroup":"422",
+
+                               	"HostMod":"755",
+                               	"VolMod":"750",
+                       		"HostUmask":"022",
+                              	"VolUmask":"022"
+			}
+		}
+	}
+
+}

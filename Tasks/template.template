@@ -1,0 +1,38 @@
+{
+	"Service Info":{
+		"Comment":"First attempt",
+		"Version":"0.1",
+		"Name":"Grafana_Data1",
+		"MountPoint":"Grafana_Data1",
+		"RightMapping":{
+			"Default":{
+				"HostUser":"1022",
+				"VolUser":"442",
+
+				"HostGroup":"100",
+				"VolGroup":"422",
+
+				"HostMod":"755",
+				"VolMod":"750",
+
+				"HostUmask":"022",
+				"VolUmask":"022"
+			},
+			"1":{
+				"Path":"readme.txt",
+
+				"HostUser":"1022",
+        	               	"VolUser":"442",
+
+               	        	"HostGroup":"100",
+                       		"VolGroup":"422",
+
+                               	"HostMod":"755",
+                               	"VolMod":"750",
+                       		"HostUmask":"022",
+                              	"VolUmask":"022"
+			}
+		}
+	}
+
+}
