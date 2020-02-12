@@ -1,0 +1,29 @@
+{
+	"Version":"0.1",
+	"Comment":"First attempt",
+	"Name":"influxdb_data",
+	"Storage":"Share1/influxdb_data",
+	"Type":"Mounts",
+	"RightMapping":{
+		"Default":{
+			"HostUser":"1027",
+			"VolUser":"999",
+			"HostGroup":"100",
+			"VolGroup":"999",
+			"HostMod":"777",
+			"VolMod":"755"
+		},
+		"1":{
+			"Path":"*",
+			"HostUser":"1027",
+			"VolUser":"0",
+			"HostGroup":"100",
+			"VolGroup":"0"
+		},
+		"2":{
+			"Path":"wal",
+			"HostMod":"777",
+			"VolMod":"700"
+		}
+	}
+}
